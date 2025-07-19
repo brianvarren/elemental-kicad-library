@@ -1,0 +1,17 @@
+(footprint "_FP_Rail_Mounting_Slot" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5A7E37F6)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0.13 4.37) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4e969bf3-3c77-4bd0-870c-41513ca1cfe2)
+  )
+  (fp_text value "Rail_mount_slot" (at 0.381 2.54) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 56d9bdcf-9e48-40c3-a2ba-427ab4099f38)
+  )
+  (fp_line (start -1.5875 -1.5875) (end 1.5875 -1.5875) (layer "Edge.Cuts") (width 0.1) (tstamp 83b7bba5-1851-4243-8c02-3bd9cf3d408a))
+  (fp_line (start -1.5875 1.5875) (end 1.5875 1.5875) (layer "Edge.Cuts") (width 0.1) (tstamp e46f23ef-e19b-487b-834a-cd06ae9f4208))
+  (fp_arc (start -1.5875 1.5875) (mid -3.175 0) (end -1.5875 -1.5875) (layer "Edge.Cuts") (width 0.1) (tstamp 12f655f2-3bfc-4ec4-b87d-c465d7ee1ed3))
+  (fp_arc (start 1.5875 -1.5875) (mid 3.175 0) (end 1.5875 1.5875) (layer "Edge.Cuts") (width 0.1) (tstamp 3cf33e79-7a06-4ab8-b720-4775b8b49d59))
+)

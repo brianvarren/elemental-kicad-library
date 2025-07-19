@@ -1,0 +1,224 @@
+(footprint "_FP_Switch_Rotary_SR16_2P4T_16mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10.045 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fb13680c-8c4f-40f9-8798-3c560b797153")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "_FP_Switch_Rotary_SR16_2P4T_16mm"
+		(at 0 10.045 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f408f9b9-1098-4f7d-948f-0ddc5d92e5d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "_FP_Switch_Rotary_SR16_2P4T_16mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f55a429b-fc72-419b-9538-93ae455b0d7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a774176-8bbb-482a-a14b-8be0a4b73016")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a4f46f3-684d-45e2-822f-a701cc130563")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_rect
+		(start -1 7)
+		(end 1 7.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco2.User")
+		(uuid "6d939817-c46b-4ed7-a813-f1c69ed9b913")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco2.User")
+		(uuid "fbe3af83-7407-4c17-9325-61c9db8313d1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco2.User")
+		(uuid "4196263e-d524-431d-abe6-f671080921fd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "b6a25267-8bc7-4db3-8cca-e0823234875f")
+	)
+	(fp_circle
+		(center 0 7.5)
+		(end 0 8.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "7ff10935-6681-4932-ac5d-b91f88822332")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "588c70fb-3bf9-4011-9908-37f7e68fb4ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd oval
+		(at -7.391036 -3.061467 180)
+		(size 2 2)
+		(layers "Eco2.User")
+		(thermal_bridge_angle 45)
+		(uuid "1eac2326-949e-4464-9d07-4153172881dc")
+	)
+	(pad "" smd oval
+		(at -7.391036 3.061467 180)
+		(size 2 2)
+		(layers "Eco2.User")
+		(thermal_bridge_angle 45)
+		(uuid "60dd6a35-2c06-441d-9a2f-c30c055afe77")
+	)
+	(pad "" smd oval
+		(at -3.061467 -7.391036 180)
+		(size 2 2)
+		(layers "Eco2.User")
+		(thermal_bridge_angle 45)
+		(uuid "752d92c4-9b1f-4877-9f87-c96a06c0ba88")
+	)
+	(pad "" smd oval
+		(at -3.061467 7.391036 180)
+		(size 2 2)
+		(layers "Eco2.User")
+		(thermal_bridge_angle 45)
+		(uuid "5dc07934-cece-4aa7-97e4-076afe2d0002")
+	)
+	(pad "" smd circle
+		(at -2.75 0)
+		(size 2 2)
+		(layers "Eco2.User")
+		(uuid "46f2ae19-8814-4826-b064-64bdc8fdd160")
+	)
+	(pad "" smd circle
+		(at 2.75 0)
+		(size 2 2)
+		(layers "Eco2.User")
+		(uuid "55263fdc-b2eb-4ae4-9c22-5390429b66ac")
+	)
+	(pad "" smd oval
+		(at 3.061467 -7.391036 180)
+		(size 2 2)
+		(layers "Eco2.User")
+		(thermal_bridge_angle 45)
+		(uuid "d6e52786-8254-4b39-ba9f-f459c0d3ce57")
+	)
+	(pad "" smd oval
+		(at 3.061467 7.391036 180)
+		(size 2 2)
+		(layers "Eco2.User")
+		(thermal_bridge_angle 45)
+		(uuid "8b94a5f1-5bcd-47e5-b4d4-4a4142e9139d")
+	)
+	(pad "" smd oval
+		(at 7.391036 -3.061467 180)
+		(size 2 2)
+		(layers "Eco2.User")
+		(thermal_bridge_angle 45)
+		(uuid "c536f8a3-e478-4ee3-8290-6f1c674792c3")
+	)
+	(pad "" smd oval
+		(at 7.391036 3.061467 180)
+		(size 2 2)
+		(layers "Eco2.User")
+		(thermal_bridge_angle 45)
+		(uuid "50964648-56d2-40ba-ac85-0f6acc2a240f")
+	)
+	(model "${ELEMENTAL_LIBRARY}/3d-models/switches/rotary_switch_16mm_3P4T.step"
+		(offset
+			(xyz 0 0 -9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+	(model "${ELEMENTAL_LIBRARY}/3d-models/knobs/minitaur knob small.step"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1.3 1 1.3)
+		)
+		(rotate
+			(xyz -90 0 22.5)
+		)
+	)
+)

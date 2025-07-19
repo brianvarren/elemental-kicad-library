@@ -1,0 +1,201 @@
+(footprint "_FP_LED_D3.0mm_FlatTop"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED, Round, FlatTop, diameter 3.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-47XEC(Ver.9A).pdf")
+	(tags "LED Round FlatTop diameter 3.0mm 2 pins")
+	(property "Reference" "REF**"
+		(at 0 -2.96 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "34b064cf-fc21-4c25-a72b-5112fd58badc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_D3.0mm_FlatTop"
+		(at 0 2.96 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38abf324-52fb-46aa-81eb-1dc178a74d1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "_FP_LED_D3.0mm_FlatTop"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59602037-0b99-47f5-8eec-970df3153a7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4395045-f7c0-43bc-a8fd-93f95b74f894")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38999e46-4d87-4129-b3a8-f6e6be6b61cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "a5517b95-f86e-4d7e-b375-1f81a06bb7dd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "ac3692a0-6dc5-4b67-82a1-68d04bfb6c9f")
+	)
+	(fp_line
+		(start -1.5 -1.16619)
+		(end -1.5 1.16619)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "43bc8b4e-7f99-46f1-a77f-620483f5ed26")
+	)
+	(fp_arc
+		(start -1.56 -1.235516)
+		(mid 0.096487 -1.987659)
+		(end 1.672335 -1.078608)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "754737e6-6024-4385-8d91-314299c3a897")
+	)
+	(fp_arc
+		(start -1.5 -1.16619)
+		(mid 1.9 0.000452)
+		(end -1.500555 1.165476)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "b887c8c7-4358-4792-95b9-6f827ab47e7e")
+	)
+	(fp_arc
+		(start -1.040961 -1.08)
+		(mid 0.000117 -1.5)
+		(end 1.04113 -1.079837)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "bf77446b-6388-4db1-ad0a-a0ee71cbda47")
+	)
+	(fp_arc
+		(start 1.04113 1.079837)
+		(mid 0.000117 1.5)
+		(end -1.040961 1.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "37951980-06f1-4d98-90e5-6f7dc1e531a1")
+	)
+	(fp_arc
+		(start 1.672335 1.078608)
+		(mid 0.096487 1.987659)
+		(end -1.56 1.235516)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "ef96f67b-079c-4828-82b3-84adf3021959")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Eco2.User")
+		(uuid "4fd08f9c-4ab8-458e-a80b-7432470fe4e1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.6 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "c4347d6c-db58-4f15-bfbb-30a0425198e6")
+	)
+	(pad "" smd rect
+		(at -1.27 0)
+		(size 1.8 1.8)
+		(layers "Eco2.User")
+		(uuid "c289d7ab-1ca9-4643-86e2-47998eb8975b")
+	)
+	(pad "" smd circle
+		(at 1.27 0)
+		(size 1.8 1.8)
+		(layers "Eco2.User")
+		(uuid "0da477db-58a5-4b5f-8f49-aa61c585c3e0")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_FlatTop.wrl"
+		(offset
+			(xyz -1.25 0 -8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

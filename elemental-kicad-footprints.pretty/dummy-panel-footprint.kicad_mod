@@ -1,0 +1,23 @@
+(footprint "dummy-panel-footprint" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "Cmts.User") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0d6a9603-2857-45e6-ad23-1b2299c6f1a0)
+  )
+  (fp_text value "dummy-panel-footprint" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3e6710fc-45ab-4062-9eee-f6d63c333f10)
+  )
+  (fp_text user "panel" (at 0 -5 unlocked) (layer "Cmts.User")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ac21f9f8-591c-4687-94ff-2d2b87a705c2)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e5722264-ca04-4383-84dc-dddaa2a5d3e7)
+  )
+  (fp_line (start 0 -4) (end 0 4) (layer "Cmts.User") (width 0.12) (tstamp 126c9dde-e757-4f9a-9622-6167c04c78e7))
+  (fp_line (start -4 0) (end 4 0) (layer "Cmts.User") (width 0.12) (tstamp bd5b6491-eef6-47a9-b36e-ea7576e2f638))
+  (fp_circle (center 0 0) (end 3 0) (layer "Cmts.User") (width 0.12) (fill none) (tstamp 55642073-c0f3-4620-9614-879ae4bbc0fa))
+)

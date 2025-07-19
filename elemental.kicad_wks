@@ -1,0 +1,151 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 91.981 20.9372)
+		(end 2 2.0142)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "${ISSUE_DATE}"
+		(name "")
+		(pos 20.411 5.097)
+		(font
+			(face "Video Light")
+		)
+		(comment "issue date")
+	)
+	(tbtext "rev ${REVISION}"
+		(name "")
+		(pos 41.907 4.995)
+		(font
+			(face "Video Light")
+		)
+		(comment "revision")
+	)
+	(tbtext "elementalsignals.com/${TITLE}"
+		(name "")
+		(pos 89.696 17.685)
+		(font
+			(face "Video Light")
+			(size 2 2)
+		)
+		(comment "URL stub")
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 89.798 13.21)
+		(font
+			(face "Video Light")
+		)
+		(comment "Comment 1")
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 89.798 9.225)
+		(font
+			(face "Video Light")
+		)
+		(comment "Comment 2")
+	)
+	(tbtext "${COMMENT3}"
+		(name "")
+		(pos 19.591 17.762)
+		(font
+			(face "Video Light")
+		)
+		(comment "phase")
+	)
+	(tbtext "${COMPANY}"
+		(name "")
+		(pos 89.949 5.062)
+		(font
+			(face "Video Light")
+		)
+		(comment "company")
+	)
+)
