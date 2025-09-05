@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "OLED_GME25664-65_SPI"
+	(symbol "patch_bits.flex-cv-in"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14,16 +14,16 @@
 				)
 			)
 		)
-		(property "Value" "OLED_GME25664-65_SPI"
-			(at 0 -12.192 0)
+		(property "Value" "patch_bits.flex-cv-in"
+			(at 0.254 -2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "elemental_display:OLED_SSD1306_I2C_128x64"
-			(at 0 -14.732 0)
+		(property "Footprint" ""
+			(at 0.254 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,10 +49,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "OLED_GME25664-65_SPI_0_1"
+		(symbol "patch_bits.flex-cv-in_0_1"
 			(rectangle
 				(start -8.89 10.16)
-				(end 8.89 -10.16)
+				(end 8.89 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -62,11 +62,11 @@
 				)
 			)
 		)
-		(symbol "OLED_GME25664-65_SPI_1_1"
+		(symbol "patch_bits.flex-cv-in_1_1"
 			(pin power_in line
-				(at -11.43 7.62 0)
+				(at 11.43 7.62 180)
 				(length 2.54)
-				(name "GND"
+				(name "V+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -81,10 +81,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -11.43 5.08 0)
+			(pin output line
+				(at 11.43 5.08 180)
 				(length 2.54)
-				(name "VCC"
+				(name "CV"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -99,10 +99,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 2.54 0)
+			(pin power_in line
+				(at 11.43 2.54 180)
 				(length 2.54)
-				(name "SCL"
+				(name "V-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -117,103 +117,31 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 0 0)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -2.54 0)
-				(length 2.54)
-				(name "RST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -5.08 0)
-				(length 2.54)
-				(name "DC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -7.62 0)
-				(length 2.54)
-				(name "CS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
-	(symbol "OLED_SSD1306_IIC"
+	(symbol "patch_bits.rotary-switch-shift"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "A"
-			(at 0 8.89 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "OLED_SSD1306_IIC"
-			(at 0 -8.89 0)
+		(property "Value" "patch_bits.rotary-switch-shift"
+			(at 0.254 -2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "elemental_display:OLED_SSD1306_I2C_128x64"
-			(at 0 -11.43 0)
+		(property "Footprint" ""
+			(at 0.254 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -239,10 +167,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "OLED_SSD1306_IIC_0_1"
+		(symbol "patch_bits.rotary-switch-shift_0_1"
 			(rectangle
-				(start -8.89 6.35)
-				(end 8.89 -6.35)
+				(start -8.89 10.16)
+				(end 8.89 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -252,11 +180,29 @@
 				)
 			)
 		)
-		(symbol "OLED_SSD1306_IIC_1_1"
+		(symbol "patch_bits.rotary-switch-shift_1_1"
 			(pin input line
-				(at -11.43 1.27 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
-				(name "SCL"
+				(name "CP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 5.08 0)
+				(length 2.54)
+				(name "PL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -272,9 +218,9 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -1.27 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
-				(name "SDA"
+				(name "Q7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -290,7 +236,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 3.81 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -299,7 +245,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -308,7 +254,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -3.81 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "GND"
 					(effects
